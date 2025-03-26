@@ -75,7 +75,7 @@ PLC_OUTLET_VALVE (Register 3): Manages oil outflow
 
 Modify attack_move_fill.py to:
 
-    Open the feed pump (write_register(1, 1)).
+    Open the feed pump (write_register(3, 1)).
 
     Close the outlet valve (write_register(3, 0)
 

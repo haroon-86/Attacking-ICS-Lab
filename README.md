@@ -19,8 +19,10 @@ Hands-on ICS security labs from TryHackMe, including Attacking ICS #1 and #2. Ex
         
 
 write_register(): Modifies register values (e.g., activating valves)
-![Altext](ics2.png)
-![AltText](ics3.png)
+
+
+<br>
+
 
 
 Scripts provided:
@@ -37,6 +39,7 @@ Scripts provided:
 
 Static register (e.g., register 16) identifies non-changing components
 
+![AltText](ics3.png)
 
 ### Task 4/5: Attack Simulation
 

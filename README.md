@@ -20,17 +20,13 @@ Hands-on ICS security labs from TryHackMe, including Attacking ICS #1 and #2. Ex
 
 write_register(): Modifies register values (e.g., activating valves)
 
-
-<br>
-
-
-
 Scripts provided:
 
     discovery.py (for monitoring registers)
 
     attack_move_fill.py (for sending malicious commands)
-
+![AltText](ics5.png)
+![AltText](ics4.png)
 
 ### Task 3: Simulated Plant Interaction
 

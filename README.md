@@ -58,7 +58,7 @@ Objective: Exploit insecure Modbus communications to manipulate PLC registers an
 Simulation: Oil refinery plant with valves, pumps, and counters controlled via registers
 
 ## Core Tasks & Attack Methodology
-## Task 1: Trigger Tank Overflow
+### Task 1: Trigger Tank Overflow
 
 Objective: Overflow the oil tank for ≥60 seconds to retrieve flag1.txt.
 
@@ -87,7 +87,7 @@ After 60 seconds, access http://<MACHINE_IP>/flag1.txt
 
 ![AltText](ics8.png)
 
-## Task 2: Redirect Oil Flow
+### Task 2: Redirect Oil Flow
 
     Objective: Route oil exclusively through the separator valve until 2000 units are processed (flag2.txt).
 
@@ -103,13 +103,13 @@ Monitor PLC_OIL_PROCESSED (Register 7) until it reaches 2000
 
 ![AltText](ics9.png)
 
-## Simulation Tools:
+### Simulation Tools:
 
 VirtuaPlant: GitHub-based ICS simulator used in the lab
 ModbusPal: Alternative Modbus slave simulator for testing
 
 
-## Security Implications
+### Security Implications
 
 Protocol Vulnerabilities:
 
@@ -117,7 +117,7 @@ Protocol Vulnerabilities:
 2. Autonomous PLC operation allows persistent malicious control during network outages
 
 
-## Physical Implications
+### Physical Implications
 Attacks can cause spills, equipment damage, or production halts
 
 

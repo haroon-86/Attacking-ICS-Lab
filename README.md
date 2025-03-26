@@ -64,13 +64,12 @@ Objective: Overflow the oil tank for ≥60 seconds to retrieve flag1.txt.
 
     Steps: 1. Observe registers with discover.py
            2. Change register values with set_reg.py
-    
-
 
 Use discovery.py to identify critical registers:
 
-PLC_FEED_PUMP (Register 1): Controls oil inflow
-PLC_OUTLET_VALVE (Register 3): Manages oil outflow
+- PLC_FEED_PUMP (Register 1): Controls oil inflow.
+  
+- PLC_OUTLET_VALVE (Register 3): Manages oil outflow.
 
 
 Modify attack_move_fill.py to:
@@ -105,8 +104,9 @@ Monitor PLC_OIL_PROCESSED (Register 7) until it reaches 2000
 
 ### Simulation Tools:
 
-VirtuaPlant: GitHub-based ICS simulator used in the lab
-ModbusPal: Alternative Modbus slave simulator for testing
+- VirtuaPlant: GitHub-based ICS simulator used in the lab
+
+- ModbusPal: Alternative Modbus slave simulator for testing
 
 
 ### Security Implications

@@ -26,6 +26,9 @@ Scripts provided:
 
     attack_move_fill.py (for sending malicious commands)
 ![AltText](ics5.png)
+
+<br>
+
 ![AltText](ics4.png)
 
 ### Task 3: Simulated Plant Interaction
@@ -44,5 +47,7 @@ Static register (e.g., register 16) identifies non-changing components
         Overfill bottles by forcing valves to stay open.
 
         Stop conveyors to cause spills
+    
+![AltText](ics6.png)
 
 # Attacking ICS #2

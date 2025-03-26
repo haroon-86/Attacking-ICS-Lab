@@ -79,13 +79,13 @@ Modify attack_move_fill.py to:
 
     Close the outlet valve (write_register(3, 0)
 
-![AltText](ics7.txt)
+![AltText](ics7.png)
 
 <br> 
 
 After 60 seconds, access http://<MACHINE_IP>/flag1.txt
 
-![AltText](ics8.txt)
+![AltText](ics8.png)
 
 ## Task 2: Redirect Oil Flow
 
@@ -101,7 +101,7 @@ Configure registers to:
 
 Monitor PLC_OIL_PROCESSED (Register 7) until it reaches 2000
 
-![AltText](ics9.txt)
+![AltText](ics9.png)
 
 ## Simulation Tools:
 
